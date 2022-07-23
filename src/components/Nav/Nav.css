@@ -1,16 +1,21 @@
 #containerNav{
-    background-color: rgb(26, 29, 36);
+    background-color: rgba(76, 55, 36, .95);
+    justify-content: center;
     width: 100%;
     display: grid;
     padding: 10px;
-    grid-template-columns: 130px 200px;
+    grid-template-columns: 130px 200px 130px;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
+
 .link{
-    color: aliceblue;
+    color: #E0DAC7;
     text-decoration: none;
     transition: .3s all;
 }
 .link:hover{
-    color: rgb(191, 129, 14);
+    color: whitesmoke;
 }

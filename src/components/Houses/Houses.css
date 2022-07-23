@@ -1,0 +1,36 @@
+.main-container {
+    background-color: rgb(224, 218, 199);
+    margin: 0 auto;
+    padding: 20px;
+    width: 85%;
+}
+
+#img {
+    display: block;
+    padding: 0;
+    border-radius: 35px;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    width: 100%;
+
+}
+
+.Title {
+    text-align: center;
+    font-size: 2.4em;
+    padding: 0;
+    transition: .3s all;
+}
+
+.Title:hover {
+    color: rgb(76, 55, 36, .95);
+}
+
+.houses-card {
+    margin: 0 auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+    background-color: wheat;
+}

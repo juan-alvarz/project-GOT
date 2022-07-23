@@ -2,13 +2,23 @@
     border-radius: 10px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    border: 1px solid black;
     padding: 10px;
+    box-shadow: 1px 5px 9px black;
     margin-top: 10px;
+    background-image: linear-gradient(to right, #394e12, #414a0e, #47460c, #4c410c, #503d0e);
 }
+
+
 
 #imageDetail {
     object-fit: cover;
     width: 245px;
     height: 245px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.textDetail {
+    padding-left: 10px;
+    color: beige;
 }

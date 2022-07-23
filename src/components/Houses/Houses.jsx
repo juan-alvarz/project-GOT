@@ -16,9 +16,22 @@ export class Houses extends Component {
   render() {
     return (
       <div className="main-container">
-        <h1 className="Title">Game of Thrones</h1>
+        <h1 className="Title">
+          <a href="https://www.hbo.com/game-of-thrones" target="_blank">
+            Game of Thrones
+          </a>
+        </h1>
         <img src={img} alt="main-img" id="img-welcome" />
-        <h3 className="Title">Houses</h3>
+
+        <h3 className="Title">
+          <a
+            href="https://awoiaf.westeros.org/index.php/List_of_Houses"
+            target="_blank"
+          >
+            Houses
+          </a>
+        </h3>
+
         <section className="houses-card">
           {this.props.houses &&
             this.props.houses.map((r) => {

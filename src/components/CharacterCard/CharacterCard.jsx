@@ -9,10 +9,22 @@ const CharacterCard = (props) => {
         <img src={props.imageUrl} id="imageDetail" />
       </div>
       <div className="textDetail">
-        <p>ID: {props.id}</p>
-        <p>Name: {props.fullName}</p>
-        <p>Title: {props.title}</p>
-        <p>Family: {props.family}</p>
+        <p>
+          ID:
+          {props.id}
+        </p>
+        <p>
+          <strong>Name:</strong> <br />
+          {props.fullName}
+        </p>
+        <p>
+          <strong>Title:</strong> <br />
+          {props.title}
+        </p>
+        <p>
+          <strong>Family:</strong> <br />
+          {props.family}
+        </p>
       </div>
     </div>
   );

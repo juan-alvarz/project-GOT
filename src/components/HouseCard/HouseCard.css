@@ -1,0 +1,42 @@
+.container-houseCard {
+    text-align: center;
+    margin: 30px;
+    border-radius: 10px;
+    background-color: rgb(96, 75, 56);
+}
+
+.container-houseCard:hover {
+    background-color: rgb(99, 79, 59);
+    box-shadow: 0 4px 6px gray;
+}
+
+.head-container {
+    display: grid;
+    grid-template-columns: 10% 80%;
+    border-radius: 10px;
+}
+
+.x {
+    padding: 6px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+    width: min-content;
+    height: min-content;
+    background-color: #FF0000;
+    color: whitesmoke;
+}
+
+.title-house {
+    text-decoration: none;
+    color: #dcc091
+}
+
+.title-house:hover {
+    color: rgb(200, 200, 200);
+}
+
+.txt-card {
+    color: #DCC091;
+    padding: 20px;
+}

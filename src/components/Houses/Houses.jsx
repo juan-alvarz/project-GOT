@@ -17,7 +17,7 @@ export class Houses extends Component {
     return (
       <div className="main-container">
         <h1 className="Title">Game of Thrones</h1>
-        <img src={img} alt="main-img" id="img" />
+        <img src={img} alt="main-img" id="img-welcome" />
         <h3 className="Title">Houses</h3>
         <section className="houses-card">
           {this.props.houses &&

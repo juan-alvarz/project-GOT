@@ -1,0 +1,16 @@
+#containerNav{
+    background-color: rgb(26, 29, 36);
+    width: 100%;
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 130px 200px;
+}
+
+.link{
+    color: aliceblue;
+    text-decoration: none;
+    transition: .3s all;
+}
+.link:hover{
+    color: rgb(191, 129, 14);
+}
